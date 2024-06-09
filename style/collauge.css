@@ -30,3 +30,10 @@ img{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+@media(min-width:577px) and (max-width:992px){
+    .row{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+}
